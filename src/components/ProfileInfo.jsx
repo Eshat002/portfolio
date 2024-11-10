@@ -4,7 +4,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 
 const ProfileInfo = () => {
   return (
-    <section className="mt-16">
+    <section className="lg:mt-16 mt-8">
       <div className="container mx-auto lg:px-14 sm:px-10 px-6 flex flex-col max-w-3xl gap-4">
         {/* <img
           className="w-14 h-14 object-cover rounded-full"
@@ -32,7 +32,7 @@ const ProfileInfo = () => {
         <a
           target="_blank"
           href="https://www.instagram.com/eshatjubayer/"
-          className="underline flex items-center font-medium text-16 text-black gap-1"
+          className="underline flex items-center font-medium text-16 text-black gap-1 capitalize"
         >
           Explore My Works on Instagram
           <LuArrowUpRight />

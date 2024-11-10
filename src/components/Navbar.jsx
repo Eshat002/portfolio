@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white sticky top-0 z-50 py-5">
-      <div className="container mx-auto lg:px-14 sm:px-10 px-6 flex items-center justify-between max-w-3xl">
+    <nav className="bg-white sticky top-0 z-50 py-6 sm:mx-6 mx-4">
+      <div className="container shadow-lg py-5 rounded-full mx-auto lg:px-14 sm:px-10 px-6 flex items-center justify-between max-w-3xl">
         {/* Logo Section */}
         <div className="relative z-50">
-          <p className="font-semibold text-base text-black/80 capitalize flex gap-2">
+          <p className="font-semibold text-base text-black/80 uppercase flex gap-2">
             <span> Eshat</span> <span className="sm:block hidden">Jubayer</span>
           </p>
 
@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
 
         {/* Navbar Links for Desktop */}
-        <div className="flex space-x-8">
+        <div className="flex sm:space-x-8 space-x-6">
           <Link
             to=""
             href="#"
