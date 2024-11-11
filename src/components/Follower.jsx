@@ -6,7 +6,7 @@ const Follower = () => {
   return (
     <section
       id="follower"
-      className="container mx-auto lg:px-14 sm:px-10 px-6 flex flex-col gap-5 max-w-3xl mt-12"
+      className="container mx-auto lg:px-14 sm:px-10 px-6 flex flex-col gap-5 max-w-3xl mt-14"
     >
       <div className="headline-container">
         <Headline text="My Network" />

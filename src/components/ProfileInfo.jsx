@@ -4,7 +4,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 
 const ProfileInfo = () => {
   return (
-    <section className="lg:mt-16 mt-8">
+    <section className="lg:mt-14 mt-8">
       <div className="container mx-auto lg:px-14 sm:px-10 px-6 flex flex-col max-w-3xl gap-4">
         {/* <img
           className="w-14 h-14 object-cover rounded-full"
