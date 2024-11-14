@@ -16,18 +16,18 @@ const Navbar = () => {
         </div>
 
         {/* Navbar Links for Desktop */}
-        <div className="flex sm:space-x-8 space-x-6">
+        <div className="flex sm:space-x-8 space-x-5">
           <Link
             to=""
             href="#"
-            className="font-normal text-base text-black/60 capitalize"
+            className="font-normal text-sm text-black/60 uppercase"
           >
             Projects
           </Link>
           <Link
             to=""
             href="#"
-            className="font-normal text-base text-black/60 capitalize"
+            className="font-normal text-sm text-black/60 uppercase"
           >
             About
           </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
             <Link
               to=""
               href="#"
-              className="font-normal text-base text-black/60 capitalize"
+              className="font-normal text-sm text-black/60 uppercase"
             >
               Play
             </Link>
