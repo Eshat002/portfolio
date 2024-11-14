@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div className="social-links-container flex gap-5">
             <a
-              className="flex items-center gap-1 underline font-medium font-sm text-black/80 capitalize"
+              className="flex items-center gap-1 underline font-medium font-sm dark:text-white/70 text-black/80 capitalize"
               target="_blank"
               href="https://www.linkedin.com/in/shahriar-jubayer-eshat/"
             >
@@ -21,14 +21,14 @@ const Footer = () => {
               <LuArrowUpRight />
             </a>{" "}
             <a
-              className="flex items-center gap-1 underline font-medium font-sm text-black/80 capitalize"
+              className="flex items-center gap-1 underline font-medium font-sm dark:text-white/70 text-black/80 capitalize"
               target="_blank"
               href="https://twitter.com/eshatjubayer"
             >
               Twitter <LuArrowUpRight />
             </a>
             <a
-              className="flex items-center gap-1 underline font-medium font-sm text-black/80 capitalize"
+              className="flex items-center gap-1 underline font-medium font-sm dark:text-white/70 text-black/80 capitalize"
               target="_blank"
               href="https://www.instagram.com/eshatjubayer/"
             >
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         {/* right div */}
-        <div className="flex items-end font-medium font-sm text-black/80 ">
+        <div className="dark:text-white/70 flex items-end font-medium font-sm text-black/80 ">
           eshatjubayer22@outlook.com
         </div>
       </div>

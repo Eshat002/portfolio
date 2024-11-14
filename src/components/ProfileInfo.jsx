@@ -22,8 +22,10 @@ const ProfileInfo = () => {
           </span>
         </div>
 
-        <h2 className="font-medium text-2xl text-black">I craft Websites</h2>
-        <p className="font-normal text-base text-black/60">
+        <h2 className="font-medium text-2xl text-black dark:text-white">
+          I craft Websites
+        </h2>
+        <p className="font-normal text-base text-black/60 dark:text-white/70">
           Full Stack developer with 6+ years of experience in HTML, CSS,
           JavaScript, jQuery, AJAX, React, Bootstrap, Tailwind, Python, Django,
           Django REST Framework, AWS, and Git. Skilled in responsive design, API
@@ -32,7 +34,7 @@ const ProfileInfo = () => {
         <a
           target="_blank"
           href="https://www.instagram.com/eshatjubayer/"
-          className="underline flex items-center font-medium text-16 text-black gap-1 capitalize"
+          className="underline flex items-center font-medium text-16 text-black dark:text-white gap-1 capitalize"
         >
           Explore My Works on Instagram
           <LuArrowUpRight />
