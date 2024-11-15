@@ -5,10 +5,19 @@ import Blog from "../assets/Images/blog.png";
 import CRM from "../assets/Images/crm.png";
 import SocialNetwork from "../assets/Images/social_network.png";
 import Headline from "./Headline";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+} from "react-scroll";
 
 const Projects = () => {
   return (
-    <section
+    <Element
+      name="projects"
       id="projects"
       className="container mx-auto lg:px-14 sm:px-10 px-6 flex flex-col gap-5 max-w-3xl mt-14"
     >
@@ -49,7 +58,7 @@ const Projects = () => {
           imgURL={SocialNetwork}
         />
       </div>
-    </section>
+    </Element>
   );
 };
 

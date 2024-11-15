@@ -1,7 +1,15 @@
 import React, { useEffect } from "react";
 import { HiSparkles } from "react-icons/hi";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import useThemeStore from "../store/themeStore";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+} from "react-scroll";
 
 const Navbar = () => {
   const { isDarkMode, toggleDarkMode } = useThemeStore();
@@ -28,16 +36,22 @@ const Navbar = () => {
         {/* Navbar Links for Desktop */}
         <div className="flex sm:space-x-8 space-x-5">
           <Link
-            to="/projects"
+            to="projects"
             href="#"
+            smooth={true}
+            offset={-150}
+            duration={500}
             className="font-normal text-sm dark:text-white/50 text-black/60 uppercase"
           >
             Projects
           </Link>
           <Link
-            to="/profile"
+            to="profile"
             href="#"
             className="font-normal text-sm dark:text-white/50 text-black/60 uppercase"
+            smooth={true}
+            offset={-150}
+            duration={500}
           >
             About
           </Link>

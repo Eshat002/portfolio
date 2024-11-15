@@ -1,10 +1,18 @@
 import React from "react";
 import ProfileImage from "../assets/Images/me.jpg";
 import { LuArrowUpRight } from "react-icons/lu";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+} from "react-scroll";
 
 const ProfileInfo = () => {
   return (
-    <section className="lg:mt-14 mt-8">
+    <Element name="profile" className="lg:mt-14 mt-8">
       <div className="container mx-auto lg:px-14 sm:px-10 px-6 flex flex-col max-w-3xl gap-4">
         {/* <img
           className="w-14 h-14 object-cover rounded-full"
@@ -40,7 +48,7 @@ const ProfileInfo = () => {
           <LuArrowUpRight />
         </a>
       </div>
-    </section>
+    </Element>
   );
 };
 
