@@ -4,7 +4,7 @@ import Headline from "./Headline";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaMedium } from "react-icons/fa6";
+import { FaDev } from "react-icons/fa";
 
 const Social = () => {
   return (
@@ -36,8 +36,8 @@ const Social = () => {
         />
         <SocialCard
           //   platform="Medium"
-          linkURL=""
-          icon={<FaMedium size={34} />}
+          linkURL="https://dev.to/eshat002"
+          icon={<FaDev size={34} />}
         />
       </div>
     </section>
