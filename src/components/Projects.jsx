@@ -46,7 +46,7 @@ const Projects = () => {
           name="SwiftCRM"
           text="This CRM System manages products, orders, and customers, tracks expenses and profits, and provides visual reports with Chart.js. It helps set business goals, analyze income trends, and track best-sellers."
           linkText="Demo"
-          linkURL="https://www.instagram.com/p/DAiqPKARF8j/"
+          linkURL="https://www.instagram.com/p/DF-5ZMlJ-Qc/"
           imgURL={CRM}
         />
         <ProjectCard
