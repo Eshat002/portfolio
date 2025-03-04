@@ -54,7 +54,7 @@ const Projects = () => {
           name="Promodtori"
           text="This social platform offers a newsfeed, profiles, post creation, proposals, reactions, comments, real-time chat, notifications, secure login/signup, and more—everything users expect in a modern social media experience."
           linkText="Demo"
-          linkURL="https://www.instagram.com/p/C_p_dr3NjiH/"
+          linkURL="https://www.instagram.com/reel/DGOQL-QRWiR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           imgURL={SocialNetwork}
         />
       </div>
