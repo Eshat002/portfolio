@@ -38,7 +38,7 @@ const Projects = () => {
           name="SnapBlog"
           text="A dynamic blog website built with Django, JavaScript, and Bootstrap featuring featured/popular posts, pagination, newsletter signup, top authors, real-time analytics, Disqus comments, and more."
           linkText="Demo"
-          linkURL="https://www.instagram.com/p/DBjDoQXs391/"
+          linkURL="https://www.instagram.com/p/DKMIqhwMwg9/"
           imgURL={Blog}
         />
         <ProjectCard
