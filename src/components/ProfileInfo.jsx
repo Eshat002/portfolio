@@ -34,7 +34,7 @@ const ProfileInfo = () => {
           I craft Websites
         </h2>
         <p className="font-normal text-base text-black/60 dark:text-white/70">
-          Full Stack developer with 6+ years of experience in HTML, CSS,
+          Full Stack developer with 7+ years of experience in HTML, CSS,
           JavaScript, jQuery, AJAX, React, Bootstrap, Tailwind, Python, Django,
           Django REST Framework, AWS, and Git. Skilled in responsive design, API
           integration, and writing clean, maintainable code.
