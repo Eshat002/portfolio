@@ -15,9 +15,9 @@ const Follower = () => {
         id="follower-card-container"
         className="grid lg:grid-cols-3 grid-cols-2 gap-6"
       >
-        <FollowerCard number={2400} platform="Linkedin" />
-        <FollowerCard number={850} platform="X" />
-        <FollowerCard number={150} platform="Instagram" />
+        <FollowerCard number={4500} platform="Linkedin" />
+        <FollowerCard number={1250} platform="X" />
+        <FollowerCard number={850} platform="Instagram" />
       </div>
     </section>
   );
