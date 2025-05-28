@@ -5,6 +5,8 @@ import { RiTwitterXLine } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaDev } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 const Social = () => {
   return (
@@ -35,9 +37,9 @@ const Social = () => {
           icon={<FaInstagram size={34} />}
         />
         <SocialCard
-          //   platform="Medium"
-          linkURL="https://dev.to/eshat002"
-          icon={<FaDev size={34} />}
+          //   platform="Github"
+          linkURL="https://github.com/Eshat002"
+          icon={<FaGithub size={34} />}
         />
       </div>
     </section>
