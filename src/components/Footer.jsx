@@ -30,7 +30,7 @@ const Footer = () => {
             <a
               className="flex items-center gap-1 underline font-medium font-sm dark:text-white/70 text-black/80 capitalize"
               target="_blank"
-              href="https://www.instagram.com/eshatjubayer/"
+              href="https://www.instagram.com/eshat.dev/"
             >
               Instagram <LuArrowUpRight />
             </a>
