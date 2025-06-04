@@ -41,7 +41,7 @@ const ProfileInfo = () => {
         </p>
         <a
           target="_blank"
-          href="https://www.instagram.com/eshatjubayer/"
+          href="https://www.instagram.com/eshat.dev/"
           className="underline flex items-center font-medium text-16 text-black dark:text-white gap-1 capitalize"
         >
           Explore My Works on Instagram
