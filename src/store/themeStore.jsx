@@ -2,7 +2,7 @@
 import { create } from "zustand";
 
 const useThemeStore = create((set) => ({
-  isDarkMode: JSON.parse(localStorage.getItem("darkMode")) || false,
+  isDarkMode: JSON.parse(localStorage.getItem("darkMode")) || true,
   toggleDarkMode: () =>
     set((state) => {
       const newMode = !state.isDarkMode;
